@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+file=$1
+w=$2
+h=$3
+x=$4
+y=$5
+
+if [[ "$( file -Lb --mime-type "$file")" =~ ^image ]]; then
+    kitty +kitten icat --engine magick --silent --stdin no --transfer-mode file --place "${w}x${h}@${x}x${y}" "$file" < /dev/null > /dev/tty
+    exit 1
+
+elif [[ "$( file -Lb --mime-type "$file")" =~ ^text ]]; then
+    less "$file"
+    exit 1
+else
+   stat -f "`basename $file`%n%A %z byte%n%SB" "$file"
+   exit 1
+fi
+
+#pistol "$file"
