@@ -2,7 +2,7 @@ This is configuratin of lf command in Kitty of Terminal.
 
 https://github.com/gokcehan/lf
 
-Copy to `~/config/lf` directory.
+Copy to `~/.config/lf` directory.
 
 
 ### Must Item
