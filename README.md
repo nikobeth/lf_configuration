@@ -4,6 +4,8 @@ https://github.com/gokcehan/lf
 
 Copy to `~/.config/lf` directory.
 
+# Change permission change below
+chmod +x lf_kitty_*
 
 ### Must Item
 
