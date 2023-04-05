@@ -19,7 +19,7 @@ https://sw.kovidgoyal.net/kitty/
 https://formulae.brew.sh/formula/imagemagick
 
 
-My Environment
+# My Environment
 
 ■Mac mini M2
 2023 Model
