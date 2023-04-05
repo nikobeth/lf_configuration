@@ -4,10 +4,10 @@ https://github.com/gokcehan/lf
 
 Copy to `~/.config/lf` directory.
 
-# Change permission change below
+## Change permission change below
 chmod +x lf_kitty_*
 
-# Must Item
+## Must Item
 
 ■lf
 https://github.com/gokcehan/lf
@@ -19,7 +19,7 @@ https://sw.kovidgoyal.net/kitty/
 https://formulae.brew.sh/formula/imagemagick
 
 
-# My Environment
+## My Environment
 
 ■Mac mini M2
 2023 Model
