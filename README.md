@@ -7,7 +7,7 @@ Copy to `~/.config/lf` directory.
 # Change permission change below
 chmod +x lf_kitty_*
 
-### Must Item
+# Must Item
 
 ■lf
 https://github.com/gokcehan/lf
